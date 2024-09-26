@@ -1,0 +1,8 @@
+immutable_var=(1,2,3,4,5)
+print(immutable_var)
+immutable_var=(1,2,3,4,5, True, "string")
+print(immutable_var)
+mutable_list=([0,1,2,3,4])
+print(mutable_list)
+mutable_list=([0,1,2,3, True, 'String'])
+print(mutable_list)
