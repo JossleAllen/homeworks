@@ -1,7 +1,7 @@
 n = int(input('Введите целое число от 3 до 20: '))
 def get_password(number):
     password = ''
-    for i in range( 1, number):
+    for i in range(  1, number):
         for j in range( i + 1, number):
             if j <= i:
                 continue
